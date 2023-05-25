@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Composition</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container{
+            background-color: black;
+            display: grid;
+            grid-template-rows: 100px 100px 120px 100px 100px 100px;
+            grid-template-columns: 100px 100px 150px 200px 200px;
+            gap: 2px;
+            padding: 2px;
+            
+        }
+
+        .one{
+            background-color: red;
+            grid-column: span 4;
+        }
+
+        .two{
+            background-color: yellow;
+            grid-row: span 2;
+        }
+
+        .three{
+            background-color: yellow;
+            grid-column: span 4;
+            grid-column-end: -1;
+        }
+
+        .four{
+            background-color: aliceblue;
+            grid-column: span 2;
+        }
+
+        .six{
+            background-color: #5a5af8;
+            grid-column: span 2;
+        }
+
+        .cont{
+            background-color: aqua;
+            margin-right: 0;
+            display: grid;
+            grid-template-rows: 100px 100px;
+            grid-template-columns: 100px 100px 150px 200px 200px;
+            width: 100%;
+            gap: 2px;
+        }
+
+        .seven{
+            background-color: #e9952e;
+        }
+
+        .ten{
+            background-color: green;
+            grid-row: span 2;
+        }
+
+
+        .eleven{
+            background-color: blueviolet;
+            grid-row: span 2;
+        }
+
+        .twelve{
+            background-color: white;
+            grid-column: span 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+        <div class="six"></div>
+        <div class="cont">
+            <div class="seven"></div>
+            <div class="eight"></div>
+            <div class="nine"></div>
+            <div class="ten"></div>
+            <div class="eleven"></div>
+            <div class="twelve"></div>
+            <div class="thirteen"></div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

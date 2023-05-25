@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail Inbox</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="display">
+
+        <!--upper flex box-->
+        <section class="upper-flex"> 
+            <div class="navbar">
+                <div class="logos">
+                    <div style="width: 40px; height: 40px; position: relative; margin-right: 2px; margin-left: 15px;">
+                        <div class="p-acc-c btnd"><button class="btndrpd"><img src="images/drpdwn.png" alt="menu"></button></div>
+                        <div class="btnds nodis" style="top: 45px; left: 0px;">Menu</div>
+                    </div>
+                    <div><a href=""><img class="logo" src="images/gmail.png" alt="gmail logo">
+                        <h5 style="float: right;"><span style="font-size: 1.7rem;">G</span>mail</h5></a></div>
+                </div>
+
+                <form class="search-con" action="" method="get" role="search">
+                    <div class="search">    
+                        <div class="p-acc-c" style="position: relative;">
+                            <div class="p-acc-c srch-a"><button type="button" class="btndrpd"><img src="images/search-icon.png" alt="search-icon"></button></div>
+                            <div class="srch-b nodis" style="top: 45px; left: 0px;">Search</div>
+                        </div>
+                        <div class="srch-d"><input class="srch" placeholder="Search mail" type="search"></div>
+                        <div class="p-acc-c" style="position: relative; margin-left: auto;">
+                            <div class="p-acc-c srch-o-a"><button class="btndrpd"><img src="images/drpdwn.png" alt="menu"></button></div>
+                            <div class="srch-o-b nodis" style="top: 45px; left: -30px; width: 100px;">Search options</div>
+                        </div>    
+                    </div>
+                </form>
+                
+                <div class="set">
+                    <div style="width: 40px; height: 40px; position: relative;">
+                        <div class="p-acc-c ques-b"><div class="ques-a"><button class="btndrpd"><a class="qu-a" href="">?</a></button></div></div>
+                        <div class="ques nodis" style="top: 45px; left: 0px;">Help</div>
+                    </div>
+
+                    <div style="width: 40px; height: 40px; position: relative;">
+                        <div class="p-acc-c stns-b"><button class="btndrpd"><img src="images/settings.png" alt=""></button></div>
+                        <div class="stns nodis" style="top: 45px; right: 0px;">Settings</div>
+                    </div>
+
+                    <div style="width: 40px; height: 40px; position: relative;">
+                        <div class="p-acc-c g-app-b"><button class="btndrpd">
+                            <div class="app-con">
+                               <div class="app-con2"><div class="app"></div><div class="app"></div><div class="app"></div></div>
+                               <div class="app-con2"><div class="app"></div><div class="app"></div><div class="app"></div></div>
+                               <div class="app-con2"><div class="app"></div><div class="app"></div><div class="app"></div></div>
+                            </div>
+                         </button>
+                        </div>
+                        <div class="g-app nodis" style="top: 45px; right: 0px; width: 90px; text-align: center;">Google apps</div>
+                    </div>
+                    <div style="width: 40px; height: 40px; position: relative;">
+                        <div class="p-acc-c p-acc-b"><div class="p-acc"><button class="btndrpd"><a class="p-acca" href="">P</a></button></div></div>
+                        <div class="p-acc-n nodis" style="top: 45px; right: 0px;">
+                            <h5>Google Account</h5><h5>Philip Ihechi</h5><h5>ihechiphilip@gmail.com</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--lower flex box-->
+
+        <section class="lower-flex">
+        
+            <!--lower left box-->
+            <div class="logos left-flex">
+                <div class="qk-m">
+                    <div class="comp-hldr">
+                        <div class="comp-icon"><img class="comp-ic" src="images/pen.png" alt="pen"></div>
+                        <div class="link comp"><a href="">Compose</a></div>
+                    </div>
+                </div>
+
+                <div class="qk-m">
+                    <div class="inbox inb-hldr">
+                        <div class="icon"><img class="icon-i" src="images/box.png" alt="inbox"></div>
+                        <div class="link"><a href="">Inbox</a></div>
+                        <div class="inbx-cnt">2,345</div>
+                        <div class="nodis wr-kl inb">Inbox</div>
+                    </div>
+                </div>
+                
+
+                <div class="qk-m">
+                    <div class="qk-m-hldr starred">
+                        <div class="icon"><img class="icon-i" src="images/favourite.png" alt="starred"></div>
+                        <div class="link starred"><a href="">Starred</a></div>
+                        <div class="nodis wr-kl strd" style="z-index: 1;">Starred</div>
+                    </div>
+                </div>
+                
+                
+                <div class="qk-m">
+                    <div class="qk-m-hldr time">
+                        <div class="icon"><img class="icon-i" src="images/time.png" alt="time"></div>
+                        <div class="link"><a href="">Snoozed</a></div>
+                        <div class="nodis wr-kl snzd">Snoozed</div>
+                    </div>
+                </div>
+                
+                
+                <div class="qk-m">
+                    <div class="qk-m-hldr send">
+                        <div class="icon"><img class="icon-i" src="images/send.png" alt="send"></div>
+                        <div class="link"><a href="">Sent</a></div>
+                        <div class="nodis wr-kl snt">Sent</div>
+                    </div>
+                </div>
+                
+                
+                <div class="qk-m">
+                    <div class="qk-m-hldr draft">
+                        <div class="icon"><img class="icon-i" src="images/note.png" alt="draft"></div>
+                        <div class="link"><a href="">Drafts</a></div>
+                        <div class="nodis wr-kl drft">Drafts</div>
+                    </div>
+                </div>
+                
+                
+                <div class="qk-m">
+                    <div class="qk-m-hldr">
+                        <div class="icon"><img style="height: 30px; width: 30px;" src="images/dd arrow.png" alt="more"></div>
+                        <div class="link more"><a href="">More</a></div>
+                    </div>
+                </div>
+
+                <div class="qk-m">
+                    <div class="qk-l-hldr">
+                        <div class="qk-l">Labels</div>
+                        <div class="qk-ls"><button type="submit">+</button></div>
+                    </div>
+                </div>    
+            </div>
+
+ <!--lower middle box-->
+            <div class="middle-flex">
+
+               <!--lower top box-->
+                <div class="tp-msg">
+                    <div class="tp-tp-msg" style="margin-bottom: 10px;">
+                        <form action="" method="get">
+                            
+                            <div class="ref-f">
+                                <div class="p-acc-c chk-bs"><input class="icon-i" type="checkbox" name="" id=""></div>
+                                <div class="lbl-c p-acc-c"><label class="msg-f" for="checkbox"><a href=""><img style="width: 30px; height: 30px;" src="images/dd arrow.png" alt=""></a></label></div>
+                                <div style="top: 50px; left: 0px;" class="nodis chk-bs-a">select</div>
+                            </div>
+                                
+                        </form>
+    
+                        <div style="position: relative; height: 50px; width: 40px;" class="ref-b old-new">
+                            <div class="p-acc-c ref"><button class="btndrpd" type="submit"><a href=""><img class="icon-i" src="images/refresh.png" alt=""></a></button></div>
+                            <div style="top: 50px; left: 0px;" class="nodis ref-b-a">Refresh</div>
+                        </div>
+    
+                        <div style="position: relative; height: 50px; width: 40px;" class="mr-b old-new">
+                            <div class="mr-b-a"><button class="btndrpd" type="submit"><a href="">
+                                <div class="p-acc-c" style="height: 40px; width: 40px; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2px;">
+                                    <div style="width: 3px; height: 3px; border-radius: 50%; background-color: #636262;"></div>
+                                    <div style="width: 3px; height: 3px; border-radius: 50%; background-color: #636262;"></div>
+                                    <div style="width: 3px; height: 3px; border-radius: 50%; background-color: #636262;"></div>
+                                </div>
+                            </a></button></div>
+                            <div class="nodis mr-b-aa" style="width: 40px; top: 50px; left: 3px;">More</div>
+                        </div>
+
+                        <div class="nu">
+                            <div class="nu-m old-new" style="position: relative; height: 50px; width: 120px;">
+                                <div style="width: 120px; height: 100%; font-size: 0.8rem; color: #414141;" class="old-new qk-a nu-m">1-50 of 2000</div>
+                                <div class="nodis ol-ne" style="top: 55px; left: 20px; width: 80px;"><p style="margin-bottom: 10px;">Newest</p> <p>Oldest</p></div>
+                            </div>
+
+                            <div class="cont old-new">
+                                <div class="p-acc-c prv"><button class="btndrpd" type="submit"><a style="font-size: 1rem; color: #414141;" href="">&#8249</a></button></div>
+                                <div class="nodis prev" style="top: 55px; left: 0px; width: 44px; font-size: 0.9rem;">Older</div>
+                            </div>
+                            <div class="cont old-new">
+                                <div class="p-acc-c nxt"><button class="btndrpd" type="submit"><a style="font-size: 1rem; color: #414141;" href="">&#8250</a></button></div>
+                                <div class="nodis next" style="top: 55px; left: 0px; width: 44px; font-size: 0.9rem;">Newer</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bt-tp-msg" style="margin-top: 10px;">
+                        <div class="qk qk-a-a" style="flex-basis: 200px; height: 100%;">
+                            <div class="tm-i"><img class="icon-i" src="images/box.png" alt="primary"></div>
+                            
+                            <div class="lnk">
+                                <div class="prim"><a href="">Primary</a></div>
+                                <div class="eff pri">Person-to-person conversations and messages that don't appear in other tabs</div>
+                            </div>
+                        </div>
+
+                        <div class="qk qk-a" style="flex-basis: 250px; height: 100%; margin-right: 20px;">
+                            <div class="tm-i" style="width: 20px; margin-right: 15px;"><img style="height: 20px; width: 20px;" src="images/tag.png" alt="promotion"></div>
+                            <div>
+                                <div class="qk">
+                                    <div class="lnk">
+                                        <div class="prom"><a href="">Promotions</a></div>
+                                        <div class="eff pro">Person-to-person conversations and messages that don't appear in other tabs</div>
+                                    </div>
+                                    <div><p class="cunt" style="background-color: #059c05;">25 new</p></div>
+                                </div>
+                                <div><p class="info">Change.org Nigeria, FXTM, YouVersion</p></div>    
+                            </div>
+                        </div>
+
+                        <div class="qk qk-a" style=" flex-basis: 250px; height: 100%;">
+                            <div class="tm-i"><img style="height: 20px; width: 20px;" src="images/contact.png" alt="social"></div>
+                            <div>
+                                <div class="qk">
+                                    <div class="lnk">
+                                        <div class="soci"><a href="">Social</a></div>
+                                        <div class="eff soc">Person-to-person conversations and messages that don't appear in other tabs</span></div>
+                                    </div>
+                                    <div><p class="cunt" style=" background-color: #2424ec;">25 new</p></div>
+                                </div>
+                                <div><p class="info">Change.org Nigeria, FXTM, YouVersion</p></div>
+                            </div>
+                        </div> 
+                    </div>    
+                </div>
+
+                
+
+              <!--mail message edited-->
+                <div class="msg-cont">
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <div class="left">
+                            <div class="fm-d">
+                                <div class="dt">
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                    <div class="f-one"><div class="f-f-one"></div><div class="f-f-one"></div><div class="f-f-one"></div></div>
+                                </div>
+                                <div class="chk-b"><input class="chkbox icon-i" type="checkbox" name="select" id="select"></div>
+                                <div class="fav-m"><a href=""><img style="width: 20px; height: 20px;" src="images/favourite.png" alt=""></a></div>
+                            </div>
+                            <div class="msg">Mixlr</div>    
+                        </div>
+    
+                        <div class="center">
+                            <div class="msg msg-hd"><span class="one">hotr_adoekiti is live now! hotr_adoekiti's live audio</span>
+                                <span class="hyp">-</span>
+                                <span class="msg-rem">Mixlr Hey jeansclub, this is to let you know that hotr_adoekiti</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <div class="m-tm">19:35</div>
+                            <div class="cnt-rt">
+                                <div class="fun-cont">
+                                    <div class="arch mag"><a href=""><img style="width: 18px; height: 18px;" src="images/archive.png" alt=""></a></div>
+                                    <div class="nodis arc hov">Archive</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="func mag"><a href=""><img style="width: 18px; height: 18px;" src="images/delete.png" alt=""></a></div>
+                                    <div class="nodis del hov">Delete</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="mark mag"><a href=""><img style="width: 18px; height: 18px;" src="images/mark.png" alt=""></a></div>
+                                    <div class="nodis mrk hov" style="width: 100px;">Mark as read</div>
+                                </div>
+                                <div class="fun-cont">
+                                    <div class="snoo mag"><a href=""><img style="width: 18px; height: 18px;" src="images/time.png" alt=""></a></div>
+                                    <div class="nodis sno hov">Snooze</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>    
+            </div>
+
+
+
+            <div class="right-flex">
+                <div class="p-acc-c rf" style="position: relative;">
+                    <div class="rgh-f rf-a"><a href=""><img class="rgh-i" src="images/calendar.png" alt=""></a></div>
+                    <div class="rf-a-a nodis" style="top: 45px; right: -10px; width: 60px;">Calendar</div>
+                </div>
+                
+                <div class="p-acc-c rf" style="position: relative;">
+                    <div class="rgh-f rf-b"><a href=""><img class="rgh-i" src="images/mark.png" alt=""></a></div>
+                    <div class="rf-b-b srch-o-b nodis" style="top: 45px; right: -10px; width: 60px;">Keep</div>
+                </div>
+                
+                <div class="p-acc-c rf" style="position: relative;">
+                    <div class="rgh-f rf-c"><a href=""><img class="rgh-i" src="images/note.png" alt=""></a></div>
+                    <div class="rf-c-c srch-o-b nodis" style="top: 45px; right: -10px; width: 60px;">Task</div>
+                </div>
+                
+                <div class="p-acc-c rf" style="position: relative;">
+                    <div class="rgh-f rf-d"><a href=""><img class="rgh-i" src="images/contact.png" alt=""></a></div>
+                    <div class="rf-d-d srch-o-b nodis" style="top: 45px; right: -10px; width: 60px;">Contact</div>
+                </div>
+
+                <div class="rgh-f rf"><a style="font-size: 1rem; color: #414141;" href="">+</a></div>
+
+                <div class="rgh-f" style="margin-top: auto;"><a style="font-size: 1rem; color: #414141;" href="">&#8250</a></div>
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Practice</title>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        section{
+            min-height: 100vh;
+            background-color: #f0b873;
+            display: flex;
+            align-items: center;
+        }
+
+        .main {
+            width: 100%;
+            display: flex;
+            text-align: center;
+            margin: auto auto;
+        }
+
+        .box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #2e1c1c;
+            width: 20rem;
+            font-weight: bolder; font-style: oblique; font-size: 2rem;
+            height: 10rem;
+        }
+
+        .cont {
+            display: flex;
+            margin: 0 auto;
+            gap: 5rem;
+        }
+
+        .red {
+            background-color: red;
+            
+        }
+
+        .green {
+            background-color: green;
+            
+            
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        @media (max-width: 1000px){
+            .cont {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+            }
+
+            .box{
+                width: 10rem;
+                height: 5rem;
+            }
+
+            .red, .green{
+            margin-bottom: 2rem;  
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="main">
+            <div class="cont">
+                <div class="red box">
+                    RED
+                </div>
+                
+                <div class="green box">
+                    GREEN  
+                </div>
+                
+                <div class="blue box">
+                    BLUE
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+
+    
+</body>
+</html>

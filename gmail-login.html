@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail</title>
+    <link rel="icon" href="images/GOOG.png">
+    <style>
+        .rmn {
+            position: relative;
+        }
+
+        .acnt {
+            position: absolute;
+            left: 0;
+            text-decoration: none;
+        }
+
+        .btn {
+            width: 60px;
+            border: none;
+            border-radius: 8px;
+            font-size: 17px;
+            padding: 5px 7px;
+            position: absolute;
+            right: 0;
+            background-color: blue;
+            color: white;
+        }
+
+        .cont1 {
+            border: solid;
+            border-width: 0.2px;   
+        }
+    </style>
+</head>
+<body style="text-align: center; font-family: Arial, Helvetica, sans-serif;" >
+    <div class="cont" style="position: relative; background-color: transparent; margin-top: 50px;">
+        <div class="cont1" style="background-color: transparent; height: 550px; width: 400px; margin: 0 auto;">
+            <div class="top">
+                <div class="img"><img src="images/gog.png" alt="Gimage" style="width: 22%; margin-top: 20px;"></div>
+                <div class="hp">
+                    <h2>Sign in</h2>
+                    <p>Use your Google Account</p>
+                </div>
+            </div>
+            <div class="rmn" style="background-color: transparent; width: 300px; margin: 20px auto 100px;">
+                <form action="">
+                    <div class="mid" style="text-align: left;">
+                        <div style="margin: 20px 0;">
+                            <label for="email"></label>
+                            <input placeholder="email or phone" type="email" id="email" style="width: 300px;">
+                        </div>
+                        <a style="color: blue; text-decoration: none;" href="https://accounts.google.com/signin/v2/usernamerecovery?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S1107641118%3A1679695800313161&flowEntry=ServiceLogin&flowName=GlifWebSignIn&ifkv=AQMjQ7QJsNwZhxuoeDfnajuu63Z3tbnf1i5g9rkEB8q6xkw-oWk2PrRjJSUBvEcUs4VjnEIV1LZvZw">Forgot email?</a> 
+                    </div>
+                    <div class="learn" style="text-align: left; margin-top: 50px;">
+                        <p>Not your computer? Use Guest mode to sign in privately.  <a style="color: blue; text-decoration: none;" href="https://support.google.com/chrome/answer/6130773?hl=en">Learn more</a></p>
+                    </div>
+                    <div class="anch" style="margin: 50px auto 0;">
+                        <a class="acnt"  style="color: blue;" href="https://accounts.google.com/signup/v2/webcreateaccount?biz=false&cc=NG&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S1107641118%3A1679695800313161&flowEntry=SignUp&flowName=GlifWebSignIn&ifkv=AQMjQ7QJsNwZhxuoeDfnajuu63Z3tbnf1i5g9rkEB8q6xkw-oWk2PrRjJSUBvEcUs4VjnEIV1LZvZw">Create account</a>
+                        <input type="submit" class="btn" value="Next">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

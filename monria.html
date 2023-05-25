@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monria's Composition</title>
+    <style>
+        body{
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: gainsboro;
+        }
+
+        .container{
+            background-color: black;
+            display: grid;
+            grid-template-rows: 120px 120px 120px 120px 50px;
+            grid-template-columns: 120px 120px 120px 120px 50px;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .red{
+            background-color: red;
+            grid-row: span 2; 
+            grid-column: span 2;
+        }
+
+        .white{
+            background-color: aliceblue;
+        }
+
+        .one{
+            grid-row: span 2; 
+            grid-column: span 3;
+        }
+
+        .two{
+            grid-row: span 3; 
+            grid-column: span 2;
+        }
+
+        .three{
+            grid-row: span 2; 
+            grid-column: span 2;
+        }
+
+        .blue{
+            background-color: blue;
+        }
+
+        .four{
+            grid-row: span 2; 
+        }
+
+        .yellow{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="red"></div>
+        <div class="white one"></div>
+        <div class="white two"></div>
+        <div class="white three"></div>
+        <div class="blue"></div>
+        <div class="white four"></div>
+        <div class="yellow"></div>
+        <div class="black"></div>
+    </div>
+    
+</body>
+</html>
