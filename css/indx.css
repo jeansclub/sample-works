@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 div, h1, h5, p, span{
@@ -29,7 +30,7 @@ div, h1, h5, p, span{
 
 h1{
     margin-bottom: 1.5rem;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: lighter;
     font-style: oblique;
     color: #fa4604;
@@ -42,18 +43,18 @@ h1{
 
 h5{
     color: #746e6e;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .int-s{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-style: normal;
     color: #0303a5;
 }
 
 p{
     color: #0303a5;
-    font-size: large;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 
@@ -82,7 +83,7 @@ p{
 
 .dir{
     color: #0303a5;
-    font-size: medium;
+    font-size: 0.9rem;
     margin-bottom: 0.3rem;
     text-align: center;
 }
@@ -98,7 +99,7 @@ p{
 .img-b{
     display: flex;
     flex-direction: column;
-    width: 17rem;
+    width: 20rem;
 }
 
 .img-a{
@@ -115,17 +116,25 @@ a{
 }
 
 img{
-    width: 17rem;
+    width: 20rem;
 }
 
 .chess{
-    width: 17rem;
-    height: 8rem;
+    width: 20rem;
+    height: 9.5rem;
+}
+
+.nxt-b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .nxt{
+    width: max-content;
     text-align: center;
-    font-size: large;
+    font-size: 0.75rem;
     padding: 1rem 0;
     margin-top: 0.2rem;
 }
@@ -174,7 +183,7 @@ img{
 }
 
 .con-img-n, .mail-ad, .p-nu{
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     color: bisque;
 }
 
